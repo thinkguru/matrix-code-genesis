@@ -1,12 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import MatrixRain from '@/components/MatrixRain';
+import Navigation from '@/components/Navigation';
+import HeroSection from '@/components/HeroSection';
+import AboutSection from '@/components/AboutSection';
+import ChallengesSection from '@/components/ChallengesSection';
+import ScheduleSection from '@/components/ScheduleSection';
+import PrizesSection from '@/components/PrizesSection';
+import RegistrationSection from '@/components/RegistrationSection';
+import FAQsSection from '@/components/FAQsSection';
+import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-matrix-black text-matrix-green relative overflow-x-hidden">
+      {/* Matrix Rain Background */}
+      <MatrixRain />
+      
+      {/* Navigation */}
+      <Navigation />
+      
+      {/* Main Content */}
+      <main className="relative z-10">
+        <HeroSection />
+        <AboutSection />
+        <ChallengesSection />
+        <ScheduleSection />
+        <PrizesSection />
+        <RegistrationSection />
+        <FAQsSection />
+        <ContactSection />
+      </main>
+      
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
