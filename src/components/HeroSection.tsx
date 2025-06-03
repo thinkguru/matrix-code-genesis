@@ -82,13 +82,13 @@ const HeroSection = () => {
               <span className="text-matrix-green">user@matrix:~$</span> hackathon --start
             </div>
             <div className="text-matrix-green">
-              > Initializing Matrix Protocol...
+              &gt; Initializing Matrix Protocol...
             </div>
             <div className="text-matrix-green">
-              > 48 hours to change the world
+              &gt; 48 hours to change the world
             </div>
             <div className="text-matrix-green">
-              > Ready to jack in? 
+              &gt; Ready to jack in? 
               <span className="animate-blink">█</span>
             </div>
           </div>
