@@ -131,10 +131,10 @@ const ScheduleSection = () => {
               <span className="text-matrix-green-light">timeline@matrix:~$</span> countdown --start
             </div>
             <div className="text-matrix-green text-lg">
-              > 48:00:00 remaining until submission
+              &gt; 48:00:00 remaining until submission
             </div>
             <div className="text-matrix-green">
-              > Time is an illusion. Code is reality.
+              &gt; Time is an illusion. Code is reality.
             </div>
           </div>
         </div>
