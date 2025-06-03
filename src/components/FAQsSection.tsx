@@ -69,10 +69,10 @@ const FAQsSection = () => {
               <span className="text-matrix-green">oracle@matrix:~$</span> query --database=faq --interactive
             </div>
             <div className="text-matrix-green">
-              > Loading knowledge base...
+              &gt; Loading knowledge base...
             </div>
             <div className="text-matrix-green">
-              > {faqs.length} entries found
+              &gt; {faqs.length} entries found
             </div>
           </div>
 
@@ -107,7 +107,7 @@ const FAQsSection = () => {
                           <span className="text-matrix-green">answer@oracle:~$</span> display --query={index + 1}
                         </div>
                         <div className="text-matrix-green">
-                          > Processing response...
+                          &gt; Processing response...
                         </div>
                       </div>
                       
@@ -127,16 +127,16 @@ const FAQsSection = () => {
               <span className="text-matrix-green">help@matrix:~$</span> contact --support
             </div>
             <div className="text-matrix-green">
-              > Still have questions? Reach out to our support team
+              &gt; Still have questions? Reach out to our support team
             </div>
             <div className="text-matrix-green">
-              > Email: oracle@matrixhack.dev
+              &gt; Email: oracle@matrixhack.dev
             </div>
             <div className="text-matrix-green">
-              > Response time: &lt; 24 hours
+              &gt; Response time: &lt; 24 hours
             </div>
             <div className="text-matrix-green">
-              > Status: Always here to help <span className="animate-blink">█</span>
+              &gt; Status: Always here to help <span className="animate-blink">█</span>
             </div>
           </div>
         </div>
