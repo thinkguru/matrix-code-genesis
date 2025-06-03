@@ -186,7 +186,7 @@ const ContactSection = () => {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <label className="block text-matrix-green font-matrix mb-2">
-                      > Name:
+                      &gt; Name:
                     </label>
                     <input
                       type="text"
@@ -200,7 +200,7 @@ const ContactSection = () => {
 
                   <div>
                     <label className="block text-matrix-green font-matrix mb-2">
-                      > Email:
+                      &gt; Email:
                     </label>
                     <input
                       type="email"
