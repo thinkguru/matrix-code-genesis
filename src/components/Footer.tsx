@@ -69,13 +69,13 @@ const Footer = () => {
                 <span className="text-matrix-green">info@matrix:~$</span> system --status
               </div>
               <div className="text-matrix-green">
-                > Event: March 15-17, 2025
+                &gt; Event: March 15-17, 2025
               </div>
               <div className="text-matrix-green">
-                > Status: Registration Open
+                &gt; Status: Registration Open
               </div>
               <div className="text-matrix-green">
-                > Next: Revolution
+                &gt; Next: Revolution
               </div>
             </div>
 
@@ -109,10 +109,10 @@ const Footer = () => {
                 <span className="text-matrix-green">nav@matrix:~$</span> goto --section
               </div>
               <div className="text-matrix-green">
-                > Use quick links above
+                &gt; Use quick links above
               </div>
               <div className="text-matrix-green">
-                > Or scroll to navigate
+                &gt; Or scroll to navigate
               </div>
             </div>
           </div>
@@ -154,10 +154,10 @@ const Footer = () => {
                 <span className="text-matrix-green">contact@matrix:~$</span> emergency --help
               </div>
               <div className="text-matrix-green">
-                > 24/7 support available
+                &gt; 24/7 support available
               </div>
               <div className="text-matrix-green">
-                > The Oracle never sleeps
+                &gt; The Oracle never sleeps
               </div>
             </div>
           </div>
@@ -171,13 +171,13 @@ const Footer = () => {
                 <span className="text-matrix-green">system@matrix:~$</span> echo "final_message"
               </div>
               <div className="text-matrix-green">
-                > "There is no spoon. There is only code."
+                &gt; "There is no spoon. There is only code."
               </div>
               <div className="text-matrix-green">
-                > Welcome to the real world, Neo.
+                &gt; Welcome to the real world, Neo.
               </div>
               <div className="text-matrix-green mt-2">
-                > Ready to change everything? <span className="animate-blink">█</span>
+                &gt; Ready to change everything? <span className="animate-blink">█</span>
               </div>
             </div>
           </div>
