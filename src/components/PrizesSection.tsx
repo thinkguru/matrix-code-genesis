@@ -147,7 +147,7 @@ const PrizesSection = () => {
                       <div className="text-left space-y-2">
                         {prize.benefits.map((benefit, i) => (
                           <div key={i} className="flex items-center space-x-2">
-                            <span className="text-matrix-green">></span>
+                            <span className="text-matrix-green">&gt;</span>
                             <span className="text-matrix-green/80 text-sm">{benefit}</span>
                           </div>
                         ))}
