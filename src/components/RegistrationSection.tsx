@@ -147,7 +147,7 @@ const RegistrationSection = () => {
               {/* Name field */}
               <div>
                 <label className="block text-matrix-green font-matrix mb-2">
-                  > Enter your name:
+                  &gt; Enter your name:
                 </label>
                 <input
                   type="text"
@@ -163,7 +163,7 @@ const RegistrationSection = () => {
               {/* Email field */}
               <div>
                 <label className="block text-matrix-green font-matrix mb-2">
-                  > Enter your email:
+                  &gt; Enter your email:
                 </label>
                 <input
                   type="email"
@@ -179,7 +179,7 @@ const RegistrationSection = () => {
               {/* Team field */}
               <div>
                 <label className="block text-matrix-green font-matrix mb-2">
-                  > Team name (optional):
+                  &gt; Team name (optional):
                 </label>
                 <input
                   type="text"
@@ -194,7 +194,7 @@ const RegistrationSection = () => {
               {/* GitHub field */}
               <div>
                 <label className="block text-matrix-green font-matrix mb-2">
-                  > GitHub/Portfolio URL:
+                  &gt; GitHub/Portfolio URL:
                 </label>
                 <input
                   type="url"
@@ -209,7 +209,7 @@ const RegistrationSection = () => {
               {/* Experience level */}
               <div>
                 <label className="block text-matrix-green font-matrix mb-2">
-                  > Experience level:
+                  &gt; Experience level:
                 </label>
                 <select
                   name="experience"
@@ -243,13 +243,13 @@ const RegistrationSection = () => {
               {/* Terminal response */}
               <div className="bg-matrix-black border border-matrix-green/50 rounded p-3 font-matrix text-sm">
                 <div className="text-matrix-green">
-                  > Waiting for user input...
+                  &gt; Waiting for user input...
                 </div>
                 <div className="text-matrix-green">
-                  > Choose the red pill and enter the rebellion
+                  &gt; Choose the red pill and enter the rebellion
                 </div>
                 <div className="text-matrix-green">
-                  > <span className="animate-blink">█</span>
+                  &gt; <span className="animate-blink">█</span>
                 </div>
               </div>
             </form>
