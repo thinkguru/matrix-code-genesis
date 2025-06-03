@@ -30,13 +30,13 @@ const AboutSection = () => {
                     <span className="text-matrix-green">system@matrix:~$</span> grep -r "participants" ./hackathon
                   </div>
                   <div className="text-matrix-green">
-                    > 500+ hackers expected
+                    &gt; 500+ hackers expected
                   </div>
                   <div className="text-matrix-green">
-                    > 50+ mentors online  
+                    &gt; 50+ mentors online  
                   </div>
                   <div className="text-matrix-green">
-                    > $50K+ in prizes
+                    &gt; $50K+ in prizes
                   </div>
                 </div>
               </div>
