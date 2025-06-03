@@ -106,13 +106,13 @@ const ChallengesSection = () => {
                   <span className="text-matrix-green">challenge@matrix:~$</span> status --verbose
                 </div>
                 <div className="text-matrix-green">
-                  > Difficulty: <span className={challenge.difficultyColor}>{challenge.difficulty}</span>
+                  &gt; Difficulty: <span className={challenge.difficultyColor}>{challenge.difficulty}</span>
                 </div>
                 <div className="text-matrix-green">
-                  > Teams registered: {Math.floor(Math.random() * 50) + 10}
+                  &gt; Teams registered: {Math.floor(Math.random() * 50) + 10}
                 </div>
                 <div className="text-matrix-green">
-                  > Time remaining: 48:00:00
+                  &gt; Time remaining: 48:00:00
                 </div>
               </div>
 
@@ -135,7 +135,7 @@ const ChallengesSection = () => {
               <span className="text-matrix-green-light">system@matrix:~$</span> echo "Ready to accept mission?"
             </div>
             <div className="text-matrix-green text-lg">
-              > Choose your path. The Matrix awaits your code.
+              &gt; Choose your path. The Matrix awaits your code.
             </div>
           </div>
         </div>
