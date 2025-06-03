@@ -113,23 +113,23 @@ const RegistrationSection = () => {
               </h3>
               <div className="space-y-3 text-matrix-green/80">
                 <div className="flex items-start space-x-2">
-                  <span className="text-matrix-green mt-1">></span>
+                  <span className="text-matrix-green mt-1">&gt;</span>
                   <span>48 hours of intense coding and innovation</span>
                 </div>
                 <div className="flex items-start space-x-2">
-                  <span className="text-matrix-green mt-1">></span>
+                  <span className="text-matrix-green mt-1">&gt;</span>
                   <span>Access to mentors and industry experts</span>
                 </div>
                 <div className="flex items-start space-x-2">
-                  <span className="text-matrix-green mt-1">></span>
+                  <span className="text-matrix-green mt-1">&gt;</span>
                   <span>Workshops on cutting-edge technologies</span>
                 </div>
                 <div className="flex items-start space-x-2">
-                  <span className="text-matrix-green mt-1">></span>
+                  <span className="text-matrix-green mt-1">&gt;</span>
                   <span>Networking with fellow rebels</span>
                 </div>
                 <div className="flex items-start space-x-2">
-                  <span className="text-matrix-green mt-1">></span>
+                  <span className="text-matrix-green mt-1">&gt;</span>
                   <span>$68K+ in prizes and recognition</span>
                 </div>
               </div>
