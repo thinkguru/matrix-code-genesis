@@ -49,16 +49,16 @@ const RegistrationSection = () => {
                   <span className="text-matrix-green">system@matrix:~$</span> registration.status
                 </div>
                 <div className="text-matrix-green">
-                  > Registration successful ✓
+                  &gt; Registration successful ✓
                 </div>
                 <div className="text-matrix-green">
-                  > User: {formData.name} added to grid
+                  &gt; User: {formData.name} added to grid
                 </div>
                 <div className="text-matrix-green">
-                  > Confirmation sent to: {formData.email}
+                  &gt; Confirmation sent to: {formData.email}
                 </div>
                 <div className="text-matrix-green">
-                  > Status: Ready to jack in
+                  &gt; Status: Ready to jack in
                 </div>
               </div>
               <p className="text-matrix-green/80 mt-4">
@@ -96,13 +96,13 @@ const RegistrationSection = () => {
                   <span className="text-matrix-green">registration@matrix:~$</span> info --details
                 </div>
                 <div className="space-y-2 text-matrix-green">
-                  <div>> Event: Matrix Hack 2025</div>
-                  <div>> Duration: 48 hours</div>
-                  <div>> Location: Digital Grid</div>
-                  <div>> Team size: 1-4 members</div>
-                  <div>> Skills: All levels welcome</div>
-                  <div>> Registration fee: $0.00</div>
-                  <div>> Spots remaining: 47/500</div>
+                  <div>&gt; Event: Matrix Hack 2025</div>
+                  <div>&gt; Duration: 48 hours</div>
+                  <div>&gt; Location: Digital Grid</div>
+                  <div>&gt; Team size: 1-4 members</div>
+                  <div>&gt; Skills: All levels welcome</div>
+                  <div>&gt; Registration fee: $0.00</div>
+                  <div>&gt; Spots remaining: 47/500</div>
                 </div>
               </div>
             </div>
