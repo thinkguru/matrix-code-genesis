@@ -99,10 +99,10 @@ const ContactSection = () => {
                   <div>-rw-r--r-- 1 oracle matrix 4096 Mar 15 10:30 github.repo</div>
                 </div>
                 <div className="text-matrix-green mt-4">
-                  > 4 communication channels available
+                  &gt; 4 communication channels available
                 </div>
                 <div className="text-matrix-green">
-                  > Choose your preferred method <span className="animate-blink">█</span>
+                  &gt; Choose your preferred method <span className="animate-blink">█</span>
                 </div>
               </div>
             </div>
@@ -167,13 +167,13 @@ const ContactSection = () => {
                     <span className="text-matrix-green">transmission@oracle:~$</span> status
                   </div>
                   <div className="text-matrix-green">
-                    > Message delivered successfully ✓
+                    &gt; Message delivered successfully ✓
                   </div>
                   <div className="text-matrix-green">
-                    > Expected response: &lt; 24 hours
+                    &gt; Expected response: &lt; 24 hours
                   </div>
                   <div className="text-matrix-green">
-                    > The Oracle will reach out soon
+                    &gt; The Oracle will reach out soon
                   </div>
                 </div>
               </div>
@@ -214,7 +214,7 @@ const ContactSection = () => {
 
                   <div>
                     <label className="block text-matrix-green font-matrix mb-2">
-                      > Message:
+                      &gt; Message:
                     </label>
                     <textarea
                       value={message}
@@ -243,13 +243,13 @@ const ContactSection = () => {
                   {/* Terminal response */}
                   <div className="bg-matrix-black border border-matrix-green/50 rounded p-3 font-matrix text-sm">
                     <div className="text-matrix-green">
-                      > Ready to transmit message
+                      &gt; Ready to transmit message
                     </div>
                     <div className="text-matrix-green">
-                      > The Oracle is listening...
+                      &gt; The Oracle is listening...
                     </div>
                     <div className="text-matrix-green">
-                      > <span className="animate-blink">█</span>
+                      &gt; <span className="animate-blink">█</span>
                     </div>
                   </div>
                 </form>
